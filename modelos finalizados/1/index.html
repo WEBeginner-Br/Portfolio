@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+:root{
+    --sombra1: rgb(97, 97, 97);
+    --sombra2: rgb(59, 59, 59);
+}
+body{
+    margin: 0;
+}
+.maiusculo{
+    text-transform: uppercase;
+}
+.cinza{
+    color: grey;
+}
+.azulc{
+    color: rgb(72, 157, 255);
+}
+.branco{
+    color: white;
+}
+.espacamento{
+    letter-spacing: 2px;
+}
+.sombra{
+    box-shadow: 0 0 3px var(--sombra2);
+}
+.cabecario{
+    display: flex;
+    justify-content: space-between;
+    height: 115px;
+    border: 3px;
+}
+.titulo{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    justify-content: center;
+    align-items: center;
+    border: 2px;
+    width: 220px;
+}
+.nome1{
+    display: flex;
+}
+.nome1>h1{
+    font-size: 30px;
+    margin: 0;
+    font-weight: 200;
+    letter-spacing: 2px;
+}
+.nome2{
+    display: flex;
+}
+.nome2>h1{
+    margin: 0;
+    font-size: 21px;
+    font-weight: 200;
+    color: rgb(0, 119, 255);
+    letter-spacing: 3px;
+}
+.servicos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 200px;
+    margin: 10px 10px 0 10px;
+    border: 3px;
+    font-size: 8px;
+}
+.servicos>h2{
+    margin: 0;
+    font-weight: 600;
+}
+.imagem{
+    display: flex;
+}
+.imagem>img{
+    width: 100%;
+}
+.conteudo{
+    display: block;
+}
+.papeldeparede{
+    display: block;
+    margin: 0;
+    background-image: url("file2.png");
+}
+.centro{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+}
+.texto{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+}
+.passartexto{
+    font-size: 30px;
+    font-weight: bolder;
+}
+.principal{
+    display: block;
+}
+.produtos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px;
+}
+.imagens{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px;
+}
+.imagemprincipal{
+    display: flex;
+    width: 300px;
+}
+.imagemprincipal img{
+    width: 100%;
+}
+.areadeservico{
+    display: block;
+    box-shadow: var(--sombra1);
+}
+.descricaoservicos{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+    padding: 10px;
+}
+.utilidades{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0 0 0;
+}
+.subarea{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 450px;
+    padding: 10px;
+    font-size: 14px;
+}
+.subarea h3{
+    margin: 0;
+    font-size: 16px;
+}
+.rodape{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+}
+.informacoes{
+    display: flex;
+    width: 300px;
+    font-size: 12px;
+}
+.contatos{
+    display: block;
+    margin: 0 200px;
+}
+.contatos p{
+    font-size: 14px;
+}
+.contatos i{
+    margin:  0 10px;
+    font-weight: bolder;
+}
+.fa-phone{
+    rotate: 270deg;
+}
+    </style>
+    <title>Agropecúaria</title>
+</head>
+<body>
+    <div class="cabecario sombra">
+        <div class="titulo">
+            <div class="nome1 maiusculo azulc">
+                <h1>company</h1>
+            </div>
+            <div class="nome2 maiusculo">
+                <h1>name here</h1>
+            </div>
+        </div>
+        <div class="servicos cinza">
+            <h2 class="maiusculo">products</h2>
+            <h2 class="maiusculo">services</h2>
+        </div>
+    </div>
+    <div class="conteudo">
+        <div class="imagem">
+            <img src="1024W_F_121757373_cl6oImN9GPCicjrpIwjk38VU2g3AOrbq_W1.jpg" alt="">
+        </div>
+        <div class="papeldeparede">
+            <div class="centro sombra">
+                <div class="esquerda cinza passartexto">
+                    <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                </div>
+                <div class="texto branco espacamento">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus necessitatibus commodi doloremque eveniet ipsum, repellendus dolor numquam fuga hic fugiat facere ab ea repudiandae eius, quam optio? Est, facere reiciendis!</p>
+                    <div class="autor branco">
+                        <p>- Lorem Ipsum</p>
+                    </div>
+                </div>
+                <div class="direita cinza passartexto">
+                    <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                </div>
+            </div>
+        </div>
+            <div class="principal">
+                <span class="produtos">
+                    <h2 class="areas maiusculo azulc espacamento">products</h2>
+                </span>
+                <div class="imagens">
+                    <div class="imagemprincipal sombra">
+                        <img src="https://www.lufthansa.com/content/dam/lh/article-images/south-america/lh_blog_sao-paulo_river_bridge_getty878377556_1920x1080.jpg.transform/lh-dcep-transform-width-1440/img.jpg" alt="">
+                    </div>
+                    <div class="imagemprincipal sombra">
+                        <img src="https://folhapiaui.com.br/wp-content/uploads/2022/12/1E-30.jpg" alt="">
+                    </div>
+                    <div class="imagemprincipal sombra">
+                        <img src="https://static-cse.canva.com/blob/613069/5dicasapresentacaodeslidesmodeloseditar.aef8434b.jpg" alt="">
+                    </div>
+                </div>
+                <div class="areadeservico papeldeparede">
+                    <div class="utilidades branco">
+                        <h2 class="areas maiusculo espacamento">services</h2>
+                                    </div>
+                    <div class="descricaoservicos">
+                                        <div class="subarea branco espacamento">
+                        <h3 class="maiusculo">lorem ipsum</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod ab excepturi dignissimos explicabo magnam maxime maiores autem. Quam facilis, a itaque, nisi modi sit quos laborum eligendi dolor asperiores necessitatibus.</p>
+                                        </div>
+                                        <div class="subarea branco espacamento">
+                        <h3 class="maiusculo">lorem ipsum</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod ab excepturi dignissimos explicabo magnam maxime maiores autem. Quam facilis, a itaque, nisi modi sit quos laborum eligendi dolor asperiores necessitatibus.</p>
+                                        </div>
+                    </div>
+            </div>
+    </div>
+    <div class="rodape">
+        <div class="informacoes cinza">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, ea? Distinctio voluptatum odio veritatis non nulla architecto id repudiandae placeat atque ad at nostrum sequi qui, impedit saepe quos veniam.</p>
+        </div>
+        <div class="contatos cinza">
+            <h2 class="maiusculo azulc">contact</h2>
+            <p><i class="fa fa-map-marker" aria-hidden="true"></i>Addres</p>
+            <p><i class="fa fa-phone" aria-hidden="true"></i>Phone</p>
+            <p><i class="fa fa-envelope" aria-hidden="true"></i>Email</p>
+        </div>
+    </div>
+</body>
+</html>
